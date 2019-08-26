@@ -7,11 +7,6 @@ def key_for_min_value(name_hash)
     if size < 2
       return name
     end
-    name_hash.collect do |name, size|
-     if size < 11
-        return name
-      end
-    end
   end
   if name_hash = {}
     return nil
